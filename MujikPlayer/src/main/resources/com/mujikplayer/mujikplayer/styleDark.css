@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@600&family=Raleway:wght@900&display=swap');
+
+.root {
+    -fx-background-color: #282828;
+    -fx-background-radius: 20px;
+}
+
+#minimizeButton {
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-font-size: 10px;
+    -fx-text-fill: black;
+    -fx-background-color: #85B0FF; /* blue pastel color */
+    -fx-cursor: hand;
+    -fx-background-radius: 15px;
+}
+
+#minimizeButton:hover {
+    -fx-background-color: #4370c4; /* lighter pastel color for hovering */
+}
+
+#exitButton {
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-font-size: 10px;
+    -fx-text-fill: black;
+    -fx-background-color: #FF8585; /* red pastel color */
+    -fx-cursor: hand;
+    -fx-background-radius: 15px;
+}
+
+#exitButton:hover {
+    -fx-background-color: #de5d5d; /* lighter pastel color for hovering */
+}
+
+#colorMode {
+
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-font-size: 10px;
+    -fx-background-color: #f0f0f0; /* red pastel color */
+    -fx-cursor: hand;
+    -fx-background-radius: 15px;
+}
+
+#colorMode:hover {
+    -fx-background-color: #b8b8b8; /* lighter pastel color for hovering */
+}
+
+#songTitleLabel {
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-font-size: 40px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #F2F2F2;
+}
+
+#artistLabel {
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #F2F2F2;
+}
+
+#stopButton {
+    -fx-background-color: linear-gradient(to bottom, #FFCED8, #FF8AA6);
+    -fx-background-radius: 20;
+    -fx-border-color: #f08196;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+#stopButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffb0c0, #fc6583);
+}
+
+#nextButton {
+    -fx-background-color: linear-gradient(to bottom, #C7E3FF, #81BFFD);
+    -fx-background-radius: 20;
+    -fx-border-color: #74a8fc;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+#nextButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #A6D2FF, #5898FF);
+}
+
+#prevButton {
+    -fx-background-color: linear-gradient(to bottom, #FFEBAA, #FFCD4F);
+    -fx-background-radius: 20;
+    -fx-border-color: #ffbd59;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+#prevButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #fce492, #ffac30);
+}
+
+#playButton {
+    -fx-background-color: linear-gradient(to bottom, #AAFFD5, #44FFA3);
+    -fx-background-radius: 20;
+    -fx-border-color: #5ae89f;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+#playButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #92FFC6, #19E376);
+}
+
+#volumeSlider .thumb {
+    -fx-background-color: #B8A7FF;
+}
+
+#volumeSlider .thumb:hover {
+    -fx-background-color: #705bc7;
+}
+
+#volumeSlider .track {
+    -fx-background-color: #383838;
+}
+
+#volumeLabel {
+    -fx-text-fill: #8A8A8A;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 10px;
+}
+
+#muteButton {
+    -fx-mark-color: #B8A7FF;
+    -fx-text-fill: #8A8A8A;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 10px;
+    -fx-cursor: hand;
+}
+
+#muteButton .box {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #383838;
+}
+
+#speedComboBox {
+    -fx-background-color: #B8A7FF;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 10px;
+    -fx-border-color: #B8A7FF;
+    -fx-cursor: hand;
+}
+
+#speedComboBox .list-view .list-cell {
+    -fx-background-color: #B8A7FF;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+    -fx-cursor: hand;
+}
+
+#speedComboBox .list-view .list-cell:hover {
+    -fx-background-color: #9579FF;
+}
+
+#songProgressBar .track {
+    -fx-background-color: linear-gradient(to right, #555555, #444444);
+    -fx-border-color: #333333;
+    -fx-border-width: 0px;
+    -fx-border-radius: 5px;
+}
+
+#songProgressBar .bar {
+    -fx-background-color: linear-gradient(to right, #B8A7FF, #7E69FF);
+}
